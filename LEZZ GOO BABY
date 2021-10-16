@@ -1,0 +1,700 @@
+local NewGUI = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local ShesyBAKA = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local SUSSYHUB = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local GameScriptFrame = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local INFINITEMONEY = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Kick = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local CreditFrame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local PathNote = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local GameScript = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Credit = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local FirstFrame = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local PathNoteFrame = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local Login = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local User = Instance.new("TextBox")
+local UICorner_15 = Instance.new("UICorner")
+local Pass = Instance.new("TextBox")
+local UICorner_16 = Instance.new("UICorner")
+local Login_2 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+
+--Properties:
+
+NewGUI.Name = "New GUI"
+NewGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+NewGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = NewGUI
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.192266375, 0, 0.219197705, 0)
+Main.Size = UDim2.new(0, 577, 0, 363)
+Main.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(16, 16, 16))}
+UIGradient.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient.Rotation = -2.7591075897217
+UIGradient.Parent = Main
+
+ShesyBAKA.Name = "ShesyBAKA"
+ShesyBAKA.Parent = Main
+ShesyBAKA.BackgroundColor3 = Color3.fromRGB(203, 135, 0)
+ShesyBAKA.Size = UDim2.new(0, 89, 0, 38)
+ShesyBAKA.Font = Enum.Font.Oswald
+ShesyBAKA.Text = "Winning"
+ShesyBAKA.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShesyBAKA.TextScaled = true
+ShesyBAKA.TextSize = 14.000
+ShesyBAKA.TextWrapped = true
+
+UICorner_2.Parent = ShesyBAKA
+
+SUSSYHUB.Name = "SUSSYHUB"
+SUSSYHUB.Parent = Main
+SUSSYHUB.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+SUSSYHUB.Position = UDim2.new(0.154246107, 0, 0, 0)
+SUSSYHUB.Size = UDim2.new(0, 67, 0, 38)
+SUSSYHUB.Font = Enum.Font.Oswald
+SUSSYHUB.Text = "Script"
+SUSSYHUB.TextColor3 = Color3.fromRGB(255, 255, 255)
+SUSSYHUB.TextScaled = true
+SUSSYHUB.TextSize = 14.000
+SUSSYHUB.TextWrapped = true
+
+UICorner_3.Parent = SUSSYHUB
+
+Tabs.Name = "Tabs"
+Tabs.Parent = Main
+Tabs.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Tabs.Position = UDim2.new(0, 0, 0.137741044, 0)
+Tabs.Size = UDim2.new(0, 89, 0, 313)
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = Tabs
+
+GameScriptFrame.Name = "GameScriptFrame"
+GameScriptFrame.Parent = Main
+GameScriptFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameScriptFrame.Position = UDim2.new(0.166377813, 0, 0.137741044, 0)
+GameScriptFrame.Size = UDim2.new(0, 471, 0, 305)
+GameScriptFrame.Visible = false
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = GameScriptFrame
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_2.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient_2.Rotation = -2.7591075897217
+UIGradient_2.Parent = GameScriptFrame
+
+INFINITEMONEY.Name = "INFINITE MONEY"
+INFINITEMONEY.Parent = GameScriptFrame
+INFINITEMONEY.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+INFINITEMONEY.Position = UDim2.new(0.0233545639, 0, 0.0229508188, 0)
+INFINITEMONEY.Size = UDim2.new(0, 448, 0, 29)
+INFINITEMONEY.Font = Enum.Font.SourceSans
+INFINITEMONEY.Text = "INFINITE MONEY"
+INFINITEMONEY.TextColor3 = Color3.fromRGB(255, 255, 255)
+INFINITEMONEY.TextScaled = true
+INFINITEMONEY.TextSize = 14.000
+INFINITEMONEY.TextWrapped = true
+INFINITEMONEY.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/UwU/main/moneyyahhhhhh",true))()
+end)
+
+UICorner_6.Parent = INFINITEMONEY
+
+TextLabel.Parent = GameScriptFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0233545639, 0, 0.232786864, 0)
+TextLabel.Size = UDim2.new(0, 448, 0, 31)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "How To use?"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = GameScriptFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.334426224, 0)
+TextLabel_2.Size = UDim2.new(0, 448, 0, 31)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "1. Go to the plaza"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = GameScriptFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0233545639, 0, 0.436065584, 0)
+TextLabel_3.Size = UDim2.new(0, 448, 0, 31)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "2. Join starballs minigame"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = GameScriptFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0233545639, 0, 0.537704945, 0)
+TextLabel_4.Size = UDim2.new(0, 448, 0, 31)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "3. Execute, then the server will be destroyed"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Kick.Name = "Kick"
+Kick.Parent = GameScriptFrame
+Kick.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Kick.Position = UDim2.new(0.0233545639, 0, 0.137704909, 0)
+Kick.Size = UDim2.new(0, 448, 0, 29)
+Kick.Font = Enum.Font.SourceSans
+Kick.Text = "Kick"
+Kick.TextColor3 = Color3.fromRGB(255, 255, 255)
+Kick.TextScaled = true
+Kick.TextSize = 14.000
+Kick.TextWrapped = true
+Kick.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/KICK/main/UwU",true))()
+end)
+
+
+UICorner_7.Parent = Kick
+
+TextLabel_5.Parent = GameScriptFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0233545639, 0, 0.639344335, 0)
+TextLabel_5.Size = UDim2.new(0, 448, 0, 31)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "4. Click The Kick Button"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = GameScriptFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0233545639, 0, 0.740983665, 0)
+TextLabel_6.Size = UDim2.new(0, 448, 0, 31)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "5. You get 1 – 2 million every time"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = GameScriptFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0233545639, 0, 0.842622995, 0)
+TextLabel_7.Size = UDim2.new(0, 448, 0, 31)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ":)"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+CreditFrame.Name = "CreditFrame"
+CreditFrame.Parent = Main
+CreditFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditFrame.Position = UDim2.new(0.166377813, 0, 0.137741044, 0)
+CreditFrame.Size = UDim2.new(0, 471, 0, 305)
+CreditFrame.Visible = false
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = CreditFrame
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient_3.Rotation = -2.7591075897217
+UIGradient_3.Parent = CreditFrame
+
+ScrollingFrame.Parent = CreditFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Size = UDim2.new(0, 471, 0, 305)
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0, 0, -0.00290837511, 0)
+TextLabel_8.Size = UDim2.new(0, 471, 0, 26)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Credit"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, 0.0384455435, 0)
+TextLabel_9.Size = UDim2.new(0, 471, 0, 33)
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "Owner"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0, 0, 0.0810684934, 0)
+TextLabel_10.Size = UDim2.new(0, 471, 0, 33)
+TextLabel_10.Font = Enum.Font.SourceSansBold
+TextLabel_10.Text = "Telly#9193"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+PathNote.Name = "PathNote"
+PathNote.Parent = Main
+PathNote.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PathNote.Position = UDim2.new(0.00542141637, 0, 0.393024027, 0)
+PathNote.Size = UDim2.new(0, 81, 0, 35)
+PathNote.Font = Enum.Font.SourceSans
+PathNote.Text = "UI Update"
+PathNote.TextColor3 = Color3.fromRGB(255, 255, 255)
+PathNote.TextScaled = true
+PathNote.TextSize = 14.000
+PathNote.TextWrapped = true
+
+UICorner_9.Parent = PathNote
+
+GameScript.Name = "GameScript"
+GameScript.Parent = Main
+GameScript.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GameScript.Position = UDim2.new(0.00542141637, 0, 0.157711282, 0)
+GameScript.Size = UDim2.new(0, 81, 0, 35)
+GameScript.Font = Enum.Font.SourceSans
+GameScript.Text = "Script"
+GameScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameScript.TextScaled = true
+GameScript.TextSize = 14.000
+GameScript.TextWrapped = true
+
+UICorner_10.Parent = GameScript
+
+Credit.Name = "Credit"
+Credit.Parent = Main
+Credit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credit.Position = UDim2.new(0.00542141637, 0, 0.275367677, 0)
+Credit.Size = UDim2.new(0, 81, 0, 35)
+Credit.Font = Enum.Font.SourceSans
+Credit.Text = "Credit"
+Credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credit.TextScaled = true
+Credit.TextSize = 14.000
+Credit.TextWrapped = true
+
+UICorner_11.Parent = Credit
+
+FirstFrame.Name = "FirstFrame"
+FirstFrame.Parent = Main
+FirstFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FirstFrame.Position = UDim2.new(0.166377813, 0, 0.137741044, 0)
+FirstFrame.Size = UDim2.new(0, 471, 0, 305)
+
+UICorner_12.CornerRadius = UDim.new(0, 10)
+UICorner_12.Parent = FirstFrame
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_4.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient_4.Rotation = -2.7591075897217
+UIGradient_4.Parent = FirstFrame
+
+TextLabel_11.Parent = FirstFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.0191082805, 0, -3.7252903e-08, 0)
+TextLabel_11.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Hello Welcome"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+TextLabel_12.Parent = FirstFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.0191082805, 0, 0.0918032378, 0)
+TextLabel_12.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Thanks for Using the Script"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+TextLabel_13.Parent = FirstFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.0191082805, 0, 0.111475371, 0)
+TextLabel_13.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "________________________________________"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = FirstFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.0191082805, 0, 0.203278646, 0)
+TextLabel_14.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "How to Close The UI?"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+TextLabel_15.Parent = FirstFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.0191082805, 0, 0.295081913, 0)
+TextLabel_15.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "Press (M) on your Keyboard"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+TextLabel_16.Parent = FirstFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0, 0, 0.383606493, 0)
+TextLabel_16.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "Thanks"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+PathNoteFrame.Name = "PathNoteFrame"
+PathNoteFrame.Parent = Main
+PathNoteFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PathNoteFrame.Position = UDim2.new(0.166377813, 0, 0.137741044, 0)
+PathNoteFrame.Size = UDim2.new(0, 471, 0, 305)
+PathNoteFrame.Visible = false
+
+UICorner_13.CornerRadius = UDim.new(0, 10)
+UICorner_13.Parent = PathNoteFrame
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_5.Offset = Vector2.new(-0.175909877, 0.0316804424)
+UIGradient_5.Rotation = -2.7591075897217
+UIGradient_5.Parent = PathNoteFrame
+
+TextLabel_17.Parent = PathNoteFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.0191082805, 0, 0, 0)
+TextLabel_17.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "Update"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
+
+TextLabel_18.Parent = PathNoteFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.0191082805, 0, 0.137704909, 0)
+TextLabel_18.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "Updated GUI"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+
+TextLabel_19.Parent = PathNoteFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.0191082805, 0, 0.229508191, 0)
+TextLabel_19.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "Thanks for Using"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+
+TextLabel_20.Parent = PathNoteFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.0191082805, 0, 0.324590147, 0)
+TextLabel_20.Size = UDim2.new(0, 453, 0, 28)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = "Make sure you Subscribe for more script like This"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextWrapped = true
+
+Login.Name = "Login"
+Login.Parent = NewGUI
+Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Login.Position = UDim2.new(0.288461477, 0, 0.349606305, 0)
+Login.Size = UDim2.new(0, 552, 0, 236)
+
+UICorner_14.CornerRadius = UDim.new(0, 15)
+UICorner_14.Parent = Login
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(178, 178, 178)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_6.Offset = Vector2.new(0.0130642056, -0.0331228822)
+UIGradient_6.Rotation = 400.81509399414
+UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.11), NumberSequenceKeypoint.new(1.00, 0.51)}
+UIGradient_6.Parent = Login
+
+User.Name = "User"
+User.Parent = Login
+User.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+User.Position = UDim2.new(0.0108695654, 0, 0.165254235, 0)
+User.Size = UDim2.new(0, 540, 0, 47)
+User.Font = Enum.Font.SourceSans
+User.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+User.Text = "Login"
+User.TextColor3 = Color3.fromRGB(255, 255, 255)
+User.TextSize = 22.000
+
+UICorner_15.Parent = User
+
+Pass.Name = "Pass"
+Pass.Parent = Login
+Pass.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Pass.Position = UDim2.new(0.0108695654, 0, 0.398305088, 0)
+Pass.Size = UDim2.new(0, 540, 0, 47)
+Pass.Font = Enum.Font.SourceSans
+Pass.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Pass.Text = "Password"
+Pass.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pass.TextSize = 22.000
+
+UICorner_16.Parent = Pass
+
+Login_2.Name = "Login"
+Login_2.Parent = Login
+Login_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Login_2.Position = UDim2.new(0.340579718, 0, 0.682203412, 0)
+Login_2.Size = UDim2.new(0, 176, 0, 48)
+Login_2.Font = Enum.Font.Cartoon
+Login_2.Text = "Enter"
+Login_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Login_2.TextScaled = true
+Login_2.TextSize = 14.000
+Login_2.TextWrapped = true
+
+UICorner_17.Parent = Login_2
+
+TextLabel_21.Parent = Login
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Size = UDim2.new(0, 552, 0, 26)
+TextLabel_21.Font = Enum.Font.Oswald
+TextLabel_21.Text = "Please Enter The Key"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextWrapped = true
+
+TextLabel_22.Parent = NewGUI
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0, 0, 0.830508471, 0)
+TextLabel_22.Size = UDim2.new(0, 544, 0, 31)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = ""
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextWrapped = true
+
+-- Scripts:
+
+local function TJOUQ_fake_script() -- PathNote.LocalScript 
+	local script = Instance.new('LocalScript', PathNote)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.CreditFrame.Visible = false
+		script.Parent.Parent.FirstFrame.Visible = false
+		script.Parent.Parent.GameScriptFrame.Visible = false
+		script.Parent.Parent.PathNoteFrame.Visible = true
+		wait(0.1)
+	end)
+end
+coroutine.wrap(TJOUQ_fake_script)()
+local function OLMW_fake_script() -- GameScript.LocalScript 
+	local script = Instance.new('LocalScript', GameScript)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.CreditFrame.Visible = false
+		script.Parent.Parent.FirstFrame.Visible = false
+		script.Parent.Parent.GameScriptFrame.Visible = true
+		script.Parent.Parent.PathNoteFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(OLMW_fake_script)()
+local function WVIBEOL_fake_script() -- Credit.LocalScript 
+	local script = Instance.new('LocalScript', Credit)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.CreditFrame.Visible = true
+		script.Parent.Parent.FirstFrame.Visible = false
+		script.Parent.Parent.GameScriptFrame.Visible = false
+		script.Parent.Parent.PathNoteFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(WVIBEOL_fake_script)()
+local function AZAE_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "m" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "m" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(AZAE_fake_script)()
+local function YLMYFZA_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(YLMYFZA_fake_script)()
+local function YAML_fake_script() -- Login_2.LocalScript 
+	local script = Instance.new('LocalScript', Login_2)
+
+	local UserData = script.Parent.Parent.User -- this is the variable for the 'username' textbox. 
+	local button = script.Parent -- this is a variable for the Button.
+	local UserPass = script.Parent.Parent.Pass -- this is a variable for the 'Password' textbox
+	local End = script.Parent.Parent.Parent.Main -- rename Hackz to ur frame u want to open after logging in.
+	button.MouseButton1Click:Connect(function() -- will run the script down below after clicking the button
+		if UserData.Text == "WinningScript" and UserPass.Text == "402e3c790898cbfaac794c7f772b6273" then -- change noob and 111 to a username and password u want
+			End.Visible = true  -- makes the hack frame visible after logging in.
+			wait(1) -- waits one second.
+			script.Parent.Parent.Visible = false -- makes the login frame invisible after logging in.
+		else -- if the pass or username is wrong it will run the script down below
+			button.Text = "Invalid Info" -- changes the text to invalid info
+			wait(0.5) -- waits 0,5 secs
+			button.Text = "Try again" -- changes the text to try again
+			wait(0.5) -- waits another 0,5 secs
+			button.Text = "Login" -- changes the text back to login
+		end -- ends the if statement
+	end) -- ends the button function
+	
+	
+	-- fully scripted by NTO EXPLOITS on youtube -- 
+end
+coroutine.wrap(YAML_fake_script)()
